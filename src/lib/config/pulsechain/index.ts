@@ -23,16 +23,15 @@ const config: Config = {
   ws: `wss://rpc.pulsechain.com`,
   explorer: 'https://scan.pulsechain.com',
   explorerName: 'Etherscan',
-  subgraph: 'https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2',
+  subgraph: '',
   balancerApi: 'https://api.balancer.fi',
   poolsUrlV2:
-    'https://storageapi.fleek.co/johngrantuk-team-bucket/poolsV2.json',
+    '',
   subgraphs: {
     main: [
-      'https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-v2',
-      `https://gateway.thegraph.com/api/${keys.graph}/subgraphs/id/GAWNgiGrA9eRce5gha9tWc7q5DPvN3fs5rSJ6tEULFNM`,
+      '',
     ],
-    aave: 'https://api.thegraph.com/subgraphs/name/aave/protocol-v2',
+    aave: '',
     gauge:
       'https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gauges',
     blocks:
