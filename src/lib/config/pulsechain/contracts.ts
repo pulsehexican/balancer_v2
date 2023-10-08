@@ -14,7 +14,7 @@ const contracts: Contracts = {
   balancerHelpers: pulsechain.BalancerHelpers,
   batchRelayer: pulsechain.BalancerRelayer,
   gaugeFactory: '0x4E7bBd911cf1EFa442BC1b2e9Ea01ffE785412EC',
-  balancerMinter: pulsechain.L2BalancerPseudoMinter,
+  balancerMinter: pulsechain.BalancerMinter,
   gaugeController: '',
   tokenAdmin: '',
   veBAL: '',
