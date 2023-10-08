@@ -23,9 +23,9 @@ const contracts: Contracts = {
   feeDistributor: '',
   feeDistributorDeprecated: '',
   faucet: '',
-  gaugeRewardsHelper: pulsechain.ChildChainGaugeRewardHelper,
-  gaugeWorkingBalanceHelper: pulsechain.ChildChainGaugeWorkingBalanceHelper,
-  gaugeCheckpointer: pulsechain.ChildChainGaugeCheckpointer,
+  gaugeRewardsHelper: '',
+  gaugeWorkingBalanceHelper: '',
+  gaugeCheckpointer: '',
 };
 
 export default contracts;
