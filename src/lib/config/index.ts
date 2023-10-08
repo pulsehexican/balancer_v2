@@ -6,6 +6,7 @@ import base from './base';
 import goerli from './goerli';
 import gnosisChain from './gnosis-chain';
 import mainnet from './mainnet';
+import pulsechain from './pulsechain';
 import optimism from './optimism';
 import polygon from './polygon';
 import sepolia from './sepolia';
@@ -13,6 +14,7 @@ import zkevm from './zkevm';
 
 const config: Record<Network | number, Config> = {
   [Network.MAINNET]: mainnet,
+  [Network.PULSECHAIN]: pulsechain,
   [Network.GOERLI]: goerli,
   [Network.POLYGON]: polygon,
   [Network.ARBITRUM]: arbitrum,

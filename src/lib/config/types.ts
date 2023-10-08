@@ -72,6 +72,7 @@ export interface Keys {
 // We don't import Network from sdk to avoid extra bundle size when loading app (while the SDK is not tree-shakable)
 export enum Network {
   MAINNET = 1,
+  PULSECHAIN = 369,
   GOERLI = 5,
   GÖRLI = 5,
   OPTIMISM = 10,
